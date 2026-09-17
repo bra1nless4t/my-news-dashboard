@@ -507,8 +507,8 @@ for feed_info in FEEDS:
         )
 
         # Artikel älter als 14 Tage ignorieren
-if age_hours > 336:
-    continue
+        if age_hours > 336:
+            continue
 
 
         article = {
