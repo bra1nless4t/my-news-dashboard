@@ -439,7 +439,7 @@ for feed_info in FEEDS:
     added = 0
 
 
-    for entry in feed.entries[:40]:
+    for entry in feed.entries[:25]:
 
         title = clean_html(
             entry.get(
@@ -505,6 +505,10 @@ for feed_info in FEEDS:
 
             age_hours
         )
+
+        # Artikel älter als 14 Tage ignorieren
+if age_hours > 336:
+    continue
 
 
         article = {
