@@ -151,6 +151,39 @@ footer {
     }
 
 }
+    .counter {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 5px 9px;
+    background: #21262d;
+    border-radius: 20px;
+    font-size: 13px;
+    color: #c9d1d9;
+}
+
+.article-meta {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 12px;
+    font-size: 13px;
+    color: #8b949e;
+}
+
+.score {
+    font-weight: bold;
+    color: #d2a8ff;
+}
+
+.new-badge {
+    display: inline-block;
+    background: #1f6feb;
+    color: white;
+    font-size: 11px;
+    padding: 3px 7px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
 </style>
 
 </head>
@@ -173,29 +206,13 @@ News werden geladen...
 <div class="container">
 
 
-<div class="categories">
+Lade Warhammer Community...
+   → 0 Meldungen gefunden
+   → 0 relevante Meldungen übernommen
 
-<div class="category">
-⚔️ <strong>Warhammer 40K</strong>
-<p>News, Regeln & Releases</p>
-</div>
-
-<div class="category">
-🎮 <strong>Gaming</strong>
-<p>Games, Releases & Hardware</p>
-</div>
-
-<div class="category">
-🏈 <strong>NFL / Vikings</strong>
-<p>Vikings & NFL News</p>
-</div>
-
-<div class="category">
-🧬 <strong>Novartis / Pharma</strong>
-<p>Pharma, Forschung & CAR-T</p>
-</div>
-
-</div>
+📡 Lade Goonhammer...
+   → 10 Meldungen gefunden
+   → 2 relevante Meldungen übernommen
 
 
 
@@ -284,6 +301,20 @@ fetch("news.json?time=" + Date.now())
     showUpdateTime(data.updated);
 
     const articles = data.articles || [];
+
+    const stats = data.stats || {};
+
+document.getElementById("warhammer-count").textContent =
+    (stats.warhammer || 0) + " News";
+
+document.getElementById("gaming-count").textContent =
+    (stats.gaming || 0) + " News";
+
+document.getElementById("nfl-count").textContent =
+    (stats.nfl || 0) + " News";
+
+document.getElementById("pharma-count").textContent =
+    (stats.pharma || 0) + " News";
 
     /*
     Kategorien anzeigen
@@ -408,37 +439,53 @@ function showArticles(articles, elementId) {
 
         const url =
             article.url || "#";
+        const published =
+    formatArticleDate(article.published);
+
+const score =
+    article.score || 0;
+
+const age =
+    article.age_hours || 999;
+
+const newBadge =
+    age <= 24
+        ? `<div><span class="new-badge">NEU</span></div>`
+        : "";
 
 
-        card.innerHTML = `
+  card.innerHTML = `
 
-            <h3>${title}</h3>
+    ${newBadge}
 
-            <p>
-            ${description}
-            </p>
+    <h3>${title}</h3>
 
-            <div class="source">
-            ${source}
-            </div>
+    <div class="article-meta">
 
-            <a
-            class="read-button"
-            href="${url}"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-            Artikel öffnen →
-            </a>
+        <span>
+            ${source} • ${published}
+        </span>
 
-        `;
+        <span class="score">
+            ★ ${score}
+        </span>
 
+    </div>
 
-        container.appendChild(card);
+    <p>
+        ${description}
+    </p>
 
-    });
+    <a
+        class="read-button"
+        href="${url}"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        Artikel öffnen →
+    </a>
 
-}
+`;
 
 
 /*
@@ -514,6 +561,46 @@ function showUpdateTime(date) {
 
 }
 
+        function formatArticleDate(dateString) {
+
+    if (!dateString) {
+        return "";
+    }
+
+    const date = new Date(dateString);
+    const now = new Date();
+
+    const difference =
+        now.getTime() - date.getTime();
+
+    const hours =
+        difference / (1000 * 60 * 60);
+
+
+    if (hours < 24) {
+
+        return "Heute";
+
+    }
+
+
+    if (hours < 48) {
+
+        return "Gestern";
+
+    }
+
+
+    return date.toLocaleDateString(
+        "de-DE",
+        {
+            day: "2-digit",
+            month: "2-digit",
+            year: "numeric"
+        }
+    );
+}
+        
 </script>
 
 
