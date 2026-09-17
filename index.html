@@ -1,590 +1,1069 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>MY NEWS</title>
+    <title>MY NEWS</title>
 
-<style>
-* {
-    box-sizing: border-box;
-}
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #0d1117;
-    color: #e6edf3;
-}
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #0d1117;
+            color: #e6edf3;
+        }
 
-header {
-    padding: 35px 20px;
-    text-align: center;
-    background: #161b22;
-    border-bottom: 1px solid #30363d;
-}
+        header {
+            padding: 35px 20px;
+            text-align: center;
+            background: #161b22;
+            border-bottom: 1px solid #30363d;
+        }
 
-header h1 {
-    margin: 0;
-    font-size: 36px;
-}
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
 
-header p {
-    color: #8b949e;
-}
+        header p {
+            margin-bottom: 8px;
+            color: #8b949e;
+        }
 
-#updated {
-    font-size: 13px;
-    color: #8b949e;
-}
+        #updated {
+            font-size: 13px;
+            color: #8b949e;
+        }
 
-.container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 25px;
-}
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 25px;
+        }
 
-/* Kategorien */
+        /* =========================
+           KATEGORIEN
+        ========================= */
 
-.categories {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 15px;
-    margin-bottom: 40px;
-}
+        .categories {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin-bottom: 45px;
+        }
 
-.category {
-    background: #161b22;
-    border: 1px solid #30363d;
-    border-radius: 12px;
-    padding: 20px;
-}
+        .category {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 20px;
+        }
 
-.category strong {
-    font-size: 18px;
-}
+        .category strong {
+            font-size: 18px;
+        }
 
-.category p {
-    color: #8b949e;
-    margin-bottom: 0;
-}
+        .category p {
+            color: #8b949e;
+            margin: 8px 0 0;
+            font-size: 14px;
+        }
 
-/* News */
+        .counter {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 5px 10px;
+            background: #21262d;
+            border-radius: 20px;
+            font-size: 13px;
+            color: #c9d1d9;
+        }
 
-.news-section {
-    margin-bottom: 45px;
-}
+        /* =========================
+           NEWS
+        ========================= */
 
-.news-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 15px;
-}
+        .news-section {
+            margin-bottom: 50px;
+        }
 
-.news-card {
-    background: #161b22;
-    border: 1px solid #30363d;
-    border-radius: 12px;
-    padding: 20px;
+        .news-section h2 {
+            margin-bottom: 20px;
+        }
 
-    display: flex;
-    flex-direction: column;
-}
+        .news-grid {
+            display: grid;
+            grid-template-columns:
+                repeat(auto-fit, minmax(300px, 1fr));
+            gap: 16px;
+        }
 
-.news-card h3 {
-    margin-top: 0;
-    line-height: 1.35;
-}
+        .news-card {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 20px;
 
-.news-card p {
-    color: #c9d1d9;
-    line-height: 1.5;
-    flex-grow: 1;
-}
+            display: flex;
+            flex-direction: column;
+        }
 
-.source {
-    color: #8b949e;
-    font-size: 13px;
-    margin-bottom: 12px;
-}
+        .news-card h3 {
+            margin: 5px 0 12px;
+            line-height: 1.35;
+            font-size: 18px;
+        }
 
-.read-button {
-    display: inline-block;
-    background: #238636;
-    color: white;
-    padding: 9px 14px;
-    border-radius: 7px;
-    text-decoration: none;
-    text-align: center;
-}
+        .news-card p {
+            color: #c9d1d9;
+            line-height: 1.5;
+            flex-grow: 1;
+        }
 
-.read-button:hover {
-    background: #2ea043;
-}
+        .article-meta {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
 
-.empty {
-    color: #8b949e;
-    background: #161b22;
-    padding: 20px;
-    border-radius: 12px;
-    border: 1px solid #30363d;
-}
+            margin-bottom: 12px;
 
-footer {
-    text-align: center;
-    color: #8b949e;
-    padding: 30px;
-}
+            font-size: 13px;
+            color: #8b949e;
+        }
 
+        .score {
+            color: #d2a8ff;
+            font-weight: bold;
+            white-space: nowrap;
+        }
 
-/* Handy */
+        .new-badge {
+            display: inline-block;
 
-@media (max-width: 600px) {
+            background: #1f6feb;
+            color: white;
 
-    header h1 {
-        font-size: 28px;
-    }
+            font-size: 11px;
+            font-weight: bold;
 
-    .container {
-        padding: 15px;
-    }
+            padding: 4px 8px;
 
-}
-    .counter {
-    display: inline-block;
-    margin-top: 12px;
-    padding: 5px 9px;
-    background: #21262d;
-    border-radius: 20px;
-    font-size: 13px;
-    color: #c9d1d9;
-}
+            border-radius: 10px;
 
-.article-meta {
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    margin-bottom: 12px;
-    font-size: 13px;
-    color: #8b949e;
-}
+            margin-bottom: 5px;
+        }
 
-.score {
-    font-weight: bold;
-    color: #d2a8ff;
-}
+        .read-button {
+            display: block;
 
-.new-badge {
-    display: inline-block;
-    background: #1f6feb;
-    color: white;
-    font-size: 11px;
-    padding: 3px 7px;
-    border-radius: 10px;
-    margin-bottom: 8px;
-}
-</style>
+            margin-top: 10px;
 
+            padding: 10px 14px;
+
+            border-radius: 7px;
+
+            background: #238636;
+            color: white;
+
+            text-decoration: none;
+            text-align: center;
+
+            font-weight: bold;
+        }
+
+        .read-button:hover {
+            background: #2ea043;
+        }
+
+        .empty {
+            color: #8b949e;
+
+            background: #161b22;
+
+            border: 1px solid #30363d;
+            border-radius: 12px;
+
+            padding: 20px;
+        }
+
+        .error {
+            color: #ff7b72;
+
+            background: #161b22;
+
+            border: 1px solid #f85149;
+            border-radius: 12px;
+
+            padding: 15px;
+
+            margin-bottom: 25px;
+        }
+
+        footer {
+            text-align: center;
+
+            color: #8b949e;
+
+            padding: 30px;
+        }
+
+        /* =========================
+           TABLET
+        ========================= */
+
+        @media (max-width: 900px) {
+
+            .categories {
+                grid-template-columns:
+                    repeat(2, 1fr);
+            }
+
+        }
+
+        /* =========================
+           HANDY
+        ========================= */
+
+        @media (max-width: 600px) {
+
+            header h1 {
+                font-size: 28px;
+            }
+
+            .container {
+                padding: 15px;
+            }
+
+            .categories {
+                grid-template-columns: 1fr;
+            }
+
+            .news-grid {
+                grid-template-columns: 1fr;
+            }
+
+        }
+    </style>
 </head>
+
 
 <body>
 
+
 <header>
 
-<h1>📰 MY NEWS</h1>
+    <h1>📰 MY NEWS</h1>
 
-<p>Dein persönliches Daily Briefing</p>
+    <p>
+        Dein persönliches Daily Briefing
+    </p>
 
-<div id="updated">
-News werden geladen...
-</div>
+    <div id="updated">
+        News werden geladen...
+    </div>
 
 </header>
 
 
-<div class="container">
+<main class="container">
 
 
-Lade Warhammer Community...
-   → 0 Meldungen gefunden
-   → 0 relevante Meldungen übernommen
+    <!-- =========================
+         KATEGORIEN
+    ========================== -->
 
-📡 Lade Goonhammer...
-   → 10 Meldungen gefunden
-   → 2 relevante Meldungen übernommen
+    <div class="categories">
 
 
+        <div class="category">
 
-<section class="news-section">
+            ⚔️
+            <strong>Warhammer 40K</strong>
 
-<h2>🔥 Top News</h2>
+            <p>
+                News, Regeln & Releases
+            </p>
 
-<div id="top-news" class="news-grid"></div>
+            <span
+                class="counter"
+                id="warhammer-count"
+            >
+                0 News
+            </span>
 
-</section>
-
-
-
-<section class="news-section">
-
-<h2>⚔️ Warhammer 40K</h2>
-
-<div id="warhammer-news" class="news-grid"></div>
-
-</section>
-
+        </div>
 
 
-<section class="news-section">
+        <div class="category">
 
-<h2>🎮 Gaming</h2>
+            🎮
+            <strong>Gaming</strong>
 
-<div id="gaming-news" class="news-grid"></div>
+            <p>
+                Games, Releases & Hardware
+            </p>
 
-</section>
+            <span
+                class="counter"
+                id="gaming-count"
+            >
+                0 News
+            </span>
 
-
-
-<section class="news-section">
-
-<h2>🏈 NFL / Minnesota Vikings</h2>
-
-<div id="nfl-news" class="news-grid"></div>
-
-</section>
-
-
-
-<section class="news-section">
-
-<h2>🧬 Novartis / Pharma</h2>
-
-<div id="pharma-news" class="news-grid"></div>
-
-</section>
+        </div>
 
 
-</div>
+        <div class="category">
+
+            🏈
+            <strong>NFL / Vikings</strong>
+
+            <p>
+                Vikings & NFL News
+            </p>
+
+            <span
+                class="counter"
+                id="nfl-count"
+            >
+                0 News
+            </span>
+
+        </div>
+
+
+        <div class="category">
+
+            🧬
+            <strong>Novartis / Pharma</strong>
+
+            <p>
+                Pharma, Forschung & CAR-T
+            </p>
+
+            <span
+                class="counter"
+                id="pharma-count"
+            >
+                0 News
+            </span>
+
+        </div>
+
+
+    </div>
+
+
+    <div id="error-box"></div>
+
+
+    <!-- =========================
+         TOP NEWS
+    ========================== -->
+
+    <section class="news-section">
+
+        <h2>
+            🔥 Top News
+        </h2>
+
+        <div
+            id="top-news"
+            class="news-grid"
+        ></div>
+
+    </section>
+
+
+    <!-- =========================
+         WARHAMMER
+    ========================== -->
+
+    <section class="news-section">
+
+        <h2>
+            ⚔️ Warhammer 40K
+        </h2>
+
+        <div
+            id="warhammer-news"
+            class="news-grid"
+        ></div>
+
+    </section>
+
+
+    <!-- =========================
+         GAMING
+    ========================== -->
+
+    <section class="news-section">
+
+        <h2>
+            🎮 Gaming
+        </h2>
+
+        <div
+            id="gaming-news"
+            class="news-grid"
+        ></div>
+
+    </section>
+
+
+    <!-- =========================
+         NFL
+    ========================== -->
+
+    <section class="news-section">
+
+        <h2>
+            🏈 NFL / Minnesota Vikings
+        </h2>
+
+        <div
+            id="nfl-news"
+            class="news-grid"
+        ></div>
+
+    </section>
+
+
+    <!-- =========================
+         PHARMA
+    ========================== -->
+
+    <section class="news-section">
+
+        <h2>
+            🧬 Novartis / Pharma
+        </h2>
+
+        <div
+            id="pharma-news"
+            class="news-grid"
+        ></div>
+
+    </section>
+
+
+</main>
 
 
 <footer>
-MY NEWS • Persönliches Daily Briefing
-</footer>
 
+    MY NEWS • Persönliches Daily Briefing
+
+</footer>
 
 
 <script>
 
-/*
---------------------------------
-News laden
---------------------------------
-*/
+/* ==================================================
+   NEWS.JSON LADEN
+================================================== */
 
-fetch("news.json?time=" + Date.now())
+fetch("./news.json?time=" + Date.now())
 
-.then(response => {
+    .then(response => {
 
-    if (!response.ok) {
-        throw new Error("news.json konnte nicht geladen werden.");
+        if (!response.ok) {
+
+            throw new Error(
+                "news.json konnte nicht geladen werden."
+            );
+
+        }
+
+        return response.json();
+
+    })
+
+
+    .then(data => {
+
+        console.log(
+            "News erfolgreich geladen:",
+            data
+        );
+
+
+        /* -------------------------
+           UPDATE ZEIT
+        ------------------------- */
+
+        showUpdateTime(
+            data.updated
+        );
+
+
+        /* -------------------------
+           ARTIKEL
+        ------------------------- */
+
+        const articles =
+            Array.isArray(data.articles)
+                ? data.articles
+                : [];
+
+
+        /* -------------------------
+           STATISTIK
+        ------------------------- */
+
+        const stats =
+            data.stats || {};
+
+
+        updateCounter(
+            "warhammer-count",
+            stats.warhammer,
+            articles,
+            "warhammer"
+        );
+
+
+        updateCounter(
+            "gaming-count",
+            stats.gaming,
+            articles,
+            "gaming"
+        );
+
+
+        updateCounter(
+            "nfl-count",
+            stats.nfl,
+            articles,
+            "nfl"
+        );
+
+
+        updateCounter(
+            "pharma-count",
+            stats.pharma,
+            articles,
+            "pharma"
+        );
+
+
+        /* -------------------------
+           KATEGORIEN
+        ------------------------- */
+
+        showCategory(
+            articles,
+            "warhammer",
+            "warhammer-news"
+        );
+
+
+        showCategory(
+            articles,
+            "gaming",
+            "gaming-news"
+        );
+
+
+        showCategory(
+            articles,
+            "nfl",
+            "nfl-news"
+        );
+
+
+        showCategory(
+            articles,
+            "pharma",
+            "pharma-news"
+        );
+
+
+        /* -------------------------
+           TOP NEWS
+        ------------------------- */
+
+        const topNews =
+            [...articles]
+
+                .sort(
+                    (a, b) =>
+                        (b.score || 0) -
+                        (a.score || 0)
+                )
+
+                .slice(
+                    0,
+                    6
+                );
+
+
+        showArticles(
+            topNews,
+            "top-news"
+        );
+
+    })
+
+
+    .catch(error => {
+
+        console.error(
+            "Fehler:",
+            error
+        );
+
+
+        document.getElementById(
+            "updated"
+        ).textContent =
+            "⚠️ News konnten nicht geladen werden.";
+
+
+        document.getElementById(
+            "error-box"
+        ).innerHTML = `
+
+            <div class="error">
+
+                Die News-Daten konnten nicht geladen werden.
+                Bitte versuche es später erneut.
+
+            </div>
+
+        `;
+
+    });
+
+
+/* ==================================================
+   ZÄHLER
+================================================== */
+
+function updateCounter(
+    elementId,
+    statValue,
+    articles,
+    category
+) {
+
+    let count;
+
+
+    if (
+        typeof statValue === "number"
+    ) {
+
+        count = statValue;
+
     }
 
-    return response.json();
+    else {
 
-})
+        count =
+            articles.filter(
+                article =>
+                    article.category === category
+            ).length;
 
-.then(data => {
-
-    console.log("News geladen:", data);
-
-    showUpdateTime(data.updated);
-
-    const articles = data.articles || [];
-
-    const stats = data.stats || {};
-
-document.getElementById("warhammer-count").textContent =
-    (stats.warhammer || 0) + " News";
-
-document.getElementById("gaming-count").textContent =
-    (stats.gaming || 0) + " News";
-
-document.getElementById("nfl-count").textContent =
-    (stats.nfl || 0) + " News";
-
-document.getElementById("pharma-count").textContent =
-    (stats.pharma || 0) + " News";
-
-    /*
-    Kategorien anzeigen
-    */
-
-    showCategory(
-        articles,
-        "warhammer",
-        "warhammer-news"
-    );
-
-    showCategory(
-        articles,
-        "gaming",
-        "gaming-news"
-    );
-
-    showCategory(
-        articles,
-        "nfl",
-        "nfl-news"
-    );
-
-    showCategory(
-        articles,
-        "pharma",
-        "pharma-news"
-    );
+    }
 
 
-    /*
-    Top News
-    */
+    document.getElementById(
+        elementId
+    ).textContent =
+        count === 1
+            ? "1 News"
+            : count + " News";
 
-    const topNews = [...articles]
-        .sort((a,b) => (b.score || 0) - (a.score || 0))
-        .slice(0,6);
+}
+
+
+/* ==================================================
+   KATEGORIE ANZEIGEN
+================================================== */
+
+function showCategory(
+    articles,
+    category,
+    elementId
+) {
+
+    const filtered =
+        articles
+
+            .filter(
+                article =>
+                    article.category === category
+            )
+
+            .sort(
+                (a, b) =>
+                    new Date(
+                        b.published || 0
+                    ) -
+                    new Date(
+                        a.published || 0
+                    )
+            )
+
+            .slice(
+                0,
+                12
+            );
+
 
     showArticles(
-        topNews,
-        "top-news"
-    );
-
-})
-
-.catch(error => {
-
-    console.error(error);
-
-    document.getElementById("updated").textContent =
-        "⚠️ News konnten nicht geladen werden.";
-
-});
-
-
-/*
---------------------------------
-Kategorie filtern
---------------------------------
-*/
-
-function showCategory(articles, category, elementId) {
-
-    const filtered = articles.filter(
-        article => article.category === category
-    );
-
-    showArticles(
-        filtered.slice(0,12),
+        filtered,
         elementId
     );
 
 }
 
 
-/*
---------------------------------
-Artikel anzeigen
---------------------------------
-*/
+/* ==================================================
+   ARTIKEL ANZEIGEN
+================================================== */
 
-function showArticles(articles, elementId) {
+function showArticles(
+    articles,
+    elementId
+) {
 
     const container =
-        document.getElementById(elementId);
+        document.getElementById(
+            elementId
+        );
+
 
     container.innerHTML = "";
 
 
-    if (articles.length === 0) {
+    if (
+        !articles ||
+        articles.length === 0
+    ) {
 
-        container.innerHTML =
-        `<div class="empty">
-        Noch keine Meldungen vorhanden.
-        </div>`;
+        container.innerHTML = `
+
+            <div class="empty">
+
+                Noch keine Meldungen vorhanden.
+
+            </div>
+
+        `;
 
         return;
+
     }
 
 
-    articles.forEach(article => {
-
-        const card =
-            document.createElement("article");
-
-        card.className = "news-card";
+    articles.forEach(
+        article => {
 
 
-        const title =
-            escapeHTML(article.title || "");
+            const card =
+                document.createElement(
+                    "article"
+                );
 
 
-        const description =
-            cleanDescription(
-                article.description || ""
+            card.className =
+                "news-card";
+
+
+            const title =
+                escapeHTML(
+                    article.title ||
+                    "Keine Überschrift"
+                );
+
+
+            const description =
+                cleanDescription(
+                    article.description ||
+                    ""
+                );
+
+
+            const source =
+                escapeHTML(
+                    article.source ||
+                    "Unbekannte Quelle"
+                );
+
+
+            const url =
+                safeUrl(
+                    article.url
+                );
+
+
+            const published =
+                formatArticleDate(
+                    article.published
+                );
+
+
+            const score =
+                Number(
+                    article.score || 0
+                );
+
+
+            const age =
+                Number(
+                    article.age_hours ?? 999
+                );
+
+
+            const newBadge =
+                age <= 24
+
+                    ? `
+                        <div>
+                            <span class="new-badge">
+                                NEU
+                            </span>
+                        </div>
+                      `
+
+                    : "";
+
+
+            card.innerHTML = `
+
+                ${newBadge}
+
+                <h3>
+                    ${title}
+                </h3>
+
+                <div class="article-meta">
+
+                    <span>
+                        ${source}
+                        ${published
+                            ? " • " + published
+                            : ""
+                        }
+                    </span>
+
+                    <span class="score">
+                        ★ ${score}
+                    </span>
+
+                </div>
+
+                <p>
+                    ${description}
+                </p>
+
+                <a
+                    class="read-button"
+                    href="${url}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Artikel öffnen →
+                </a>
+
+            `;
+
+
+            container.appendChild(
+                card
             );
 
-
-        const source =
-            escapeHTML(article.source || "");
-
-
-        const url =
-            article.url || "#";
-        const published =
-    formatArticleDate(article.published);
-
-const score =
-    article.score || 0;
-
-const age =
-    article.age_hours || 999;
-
-const newBadge =
-    age <= 24
-        ? `<div><span class="new-badge">NEU</span></div>`
-        : "";
-
-
-  card.innerHTML = `
-
-    ${newBadge}
-
-    <h3>${title}</h3>
-
-    <div class="article-meta">
-
-        <span>
-            ${source} • ${published}
-        </span>
-
-        <span class="score">
-            ★ ${score}
-        </span>
-
-    </div>
-
-    <p>
-        ${description}
-    </p>
-
-    <a
-        class="read-button"
-        href="${url}"
-        target="_blank"
-        rel="noopener noreferrer"
-    >
-        Artikel öffnen →
-    </a>
-
-`;
-
-
-/*
---------------------------------
-HTML aus RSS entfernen
---------------------------------
-*/
-
-function cleanDescription(text) {
-
-    const div =
-        document.createElement("div");
-
-    div.innerHTML = text;
-
-    const clean =
-        div.textContent ||
-        div.innerText ||
-        "";
-
-    return escapeHTML(
-        clean.substring(0,250)
+        }
     );
 
 }
 
 
-/*
---------------------------------
-Sicherheit
---------------------------------
-*/
+/* ==================================================
+   RSS HTML ENTFERNEN
+================================================== */
 
-function escapeHTML(text) {
+function cleanDescription(
+    text
+) {
 
     const div =
-        document.createElement("div");
+        document.createElement(
+            "div"
+        );
 
-    div.textContent = text;
+
+    div.innerHTML =
+        String(text);
+
+
+    let clean =
+        div.textContent ||
+        div.innerText ||
+        "";
+
+
+    clean =
+        clean.trim();
+
+
+    if (
+        clean.length > 280
+    ) {
+
+        clean =
+            clean.substring(
+                0,
+                280
+            ) + "…";
+
+    }
+
+
+    return escapeHTML(
+        clean
+    );
+
+}
+
+
+/* ==================================================
+   HTML SICHER AUSGEBEN
+================================================== */
+
+function escapeHTML(
+    text
+) {
+
+    const div =
+        document.createElement(
+            "div"
+        );
+
+
+    div.textContent =
+        String(text);
+
 
     return div.innerHTML;
 
 }
 
 
-/*
---------------------------------
-Update-Zeit
---------------------------------
-*/
+/* ==================================================
+   URL PRÜFEN
+================================================== */
 
-function showUpdateTime(date) {
+function safeUrl(
+    url
+) {
 
-    if (!date) return;
+    if (!url) {
+        return "#";
+    }
 
-    const update =
-        new Date(date);
 
-    const formatted =
-        update.toLocaleString(
-            "de-DE",
-            {
-                dateStyle: "medium",
-                timeStyle: "short"
-            }
+    try {
+
+        const parsed =
+            new URL(
+                url,
+                window.location.href
+            );
+
+
+        if (
+            parsed.protocol === "http:" ||
+            parsed.protocol === "https:"
+        ) {
+
+            return parsed.href;
+
+        }
+
+    }
+
+    catch (error) {
+
+        console.error(
+            "Ungültige URL:",
+            url
         );
 
+    }
 
-    document.getElementById(
-        "updated"
-    ).textContent =
-        "Letztes Update: " + formatted;
+
+    return "#";
 
 }
 
-        function formatArticleDate(dateString) {
+
+/* ==================================================
+   ARTIKELDATUM
+================================================== */
+
+function formatArticleDate(
+    dateString
+) {
 
     if (!dateString) {
         return "";
     }
 
-    const date = new Date(dateString);
-    const now = new Date();
+
+    const date =
+        new Date(
+            dateString
+        );
+
+
+    if (
+        Number.isNaN(
+            date.getTime()
+        )
+    ) {
+
+        return "";
+
+    }
+
+
+    const now =
+        new Date();
+
 
     const difference =
-        now.getTime() - date.getTime();
+        now.getTime() -
+        date.getTime();
+
 
     const hours =
-        difference / (1000 * 60 * 60);
+        difference /
+        (1000 * 60 * 60);
 
 
-    if (hours < 24) {
+    if (
+        hours >= 0 &&
+        hours < 24
+    ) {
 
         return "Heute";
 
     }
 
 
-    if (hours < 48) {
+    if (
+        hours >= 24 &&
+        hours < 48
+    ) {
 
         return "Gestern";
 
@@ -599,8 +1078,65 @@ function showUpdateTime(date) {
             year: "numeric"
         }
     );
+
 }
-        
+
+
+/* ==================================================
+   LETZTES UPDATE
+================================================== */
+
+function showUpdateTime(
+    dateString
+) {
+
+    if (!dateString) {
+
+        document.getElementById(
+            "updated"
+        ).textContent =
+            "Update-Zeit unbekannt";
+
+        return;
+
+    }
+
+
+    const date =
+        new Date(
+            dateString
+        );
+
+
+    if (
+        Number.isNaN(
+            date.getTime()
+        )
+    ) {
+
+        return;
+
+    }
+
+
+    const formatted =
+        date.toLocaleString(
+            "de-DE",
+            {
+                dateStyle: "medium",
+                timeStyle: "short"
+            }
+        );
+
+
+    document.getElementById(
+        "updated"
+    ).textContent =
+        "Letztes Update: " +
+        formatted;
+
+}
+
 </script>
 
 
