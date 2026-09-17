@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-17T12:24:37.596712+00:00",
+  "updated": "2026-09-17T13:20:54.354372+00:00",
   "stats": {
-    "warhammer": 2,
-    "gaming": 40,
-    "nfl": 8,
+    "warhammer": 5,
+    "gaming": 25,
+    "nfl": 10,
     "pharma": 25
   },
   "articles": [
@@ -13,7 +13,7 @@
       "description": "Legend Biotech has found its permanent CEO, poaching 15-year Novartis veteran Ingrid Zhang as the CAR-T specialist eyes its next phase of growth.",
       "source": "Fierce Pharma",
       "url": "https://www.fiercepharma.com/pharma/legend-biotech-names-novartis-veteran-ingrid-zhang-new-ceo",
-      "published": "2026-09-17T12:24:37.595677+00:00",
+      "published": "2026-09-17T13:20:54.353518+00:00",
       "age_hours": 0.0,
       "score": 52
     },
@@ -23,9 +23,19 @@
       "description": "The FDA has approved the industry’s first radioligand equivalent in Curium’s lutetium Lu 177 dotatate injection, Bexlutry, after a court cleared the Boston company of all patent claims brought by Novartis.",
       "source": "Fierce Pharma",
       "url": "https://www.fiercepharma.com/pharma/fda-approves-first-radioligand-equivalent-curiums-copycat-novartis-lutathera",
-      "published": "2026-09-17T12:24:37.596130+00:00",
+      "published": "2026-09-17T13:20:54.353902+00:00",
       "age_hours": 0.0,
       "score": 40
+    },
+    {
+      "category": "warhammer",
+      "title": "Warhammer 40k: Space Wolves, Black Templars, and Deathwatch First Looks – Big Changes Ahead",
+      "description": "GW shared a preview of what’s to come for more non-Codex-compliant chapters in 11th edition. Come see what’s getting updated. Following up on yesterday’s Angelic reveals, Games Workshop has previewed rules for the remaining big three less-than-Codex-compliant chapters. Today, the Space Wolves, Black Templars, and Deathwatch get their moments in the spotlight. There’s some interesting […] Warhammer 40k: Space Wolves, Black Templars, and Deathwatch First Looks – Big Changes Ahead first appeared on",
+      "source": "Bell of Lost Souls",
+      "url": "https://www.belloflostsouls.net/2026/09/warhammer-40k-space-wolves-black-templars-and-deathwatch-first-looks-big-changes-ahead.html",
+      "published": "2026-09-16T16:16:48+00:00",
+      "age_hours": 21.1,
+      "score": 39
     },
     {
       "category": "pharma",
@@ -33,7 +43,7 @@
       "description": "The Fierce Pharma Marketing Awards celebrated winners across 20 different categories, with GSK, Novartis, argenx and more taking home trophies.",
       "source": "Fierce Pharma",
       "url": "https://www.fiercepharma.com/marketing/gsk-novartis-ucb-and-more-snag-wins-2026-fierce-pharma-marketing-awards",
-      "published": "2026-09-17T12:24:37.595772+00:00",
+      "published": "2026-09-17T13:20:54.353612+00:00",
       "age_hours": 0.0,
       "score": 34
     },
@@ -43,7 +53,7 @@
       "description": "Cellares is partnering with Taiwanese biotech GenomeFrontier Therapeutics to evaluate the integrated contract developer and manufacturer’s cell shuttle platform for use in the production of virus-free CAR-T therapies.",
       "source": "Fierce Pharma",
       "url": "https://www.fiercepharma.com/manufacturing/cellares-links-genomefrontier-evaluate-virus-free-car-t-therapy-production",
-      "published": "2026-09-17T12:24:37.595449+00:00",
+      "published": "2026-09-17T13:20:54.353297+00:00",
       "age_hours": 0.0,
       "score": 34
     },
@@ -54,8 +64,8 @@
       "source": "PC Gamer",
       "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-beta-launch-times-how-to-sign-up-and-play-blizzards-twist-on-wow-classic/",
       "published": "2026-09-16T17:20:51+00:00",
-      "age_hours": 19.1,
-      "score": 33
+      "age_hours": 20.0,
+      "score": 34
     },
     {
       "category": "nfl",
@@ -64,7 +74,7 @@
       "source": "Minnesota Vikings",
       "url": "https://www.vikings.com/news/injury-report-week-2-chicago-bears-2026",
       "published": "2026-09-16T21:30:17+00:00",
-      "age_hours": 14.9,
+      "age_hours": 15.8,
       "score": 31
     },
     {
@@ -74,8 +84,18 @@
       "source": "Minnesota Vikings",
       "url": "https://www.vikings.com/news/jordan-mason-injured-reserve-deejay-dallas-signing-2026",
       "published": "2026-09-16T18:45:36+00:00",
-      "age_hours": 17.7,
+      "age_hours": 18.6,
       "score": 31
+    },
+    {
+      "category": "warhammer",
+      "title": "Old Hammer 40K: Using Old Edition Missions to Spice Up 11th Ed. Disposition Fights",
+      "description": "Goatboy here with a crazy idea to spice up our same-y 11th Edition Missions. Can we make Dispositions matter more by creating themes tied to some classic old-Edition Missions? Here’s how to do it! The idea I have would be: how can we create some kind of overarching mission that happens in a modern 11th […] Old Hammer 40K: Using Old Edition Missions to Spice Up 11th Ed. Disposition Fights first appeared on Bell of Lost Souls",
+      "source": "Bell of Lost Souls",
+      "url": "https://www.belloflostsouls.net/2026/09/old-hammer-40k-using-old-edition-missions-to-spice-up-11th-ed-disposition-fights.html",
+      "published": "2026-09-16T05:01:22+00:00",
+      "age_hours": 32.3,
+      "score": 29
     },
     {
       "category": "pharma",
@@ -83,7 +103,7 @@
       "description": "As a key player in the automated cell therapy manufacturing space grapples with a recent setback, another is making waves with a major commercial pact.",
       "source": "Fierce Pharma",
       "url": "https://www.fiercepharma.com/pharma/ori-locks-down-120m-pact-deploy-automated-production-platform-unnamed-commercial-cell",
-      "published": "2026-09-17T12:24:37.595727+00:00",
+      "published": "2026-09-17T13:20:54.353566+00:00",
       "age_hours": 0.0,
       "score": 28
     },
@@ -93,7 +113,7 @@
       "description": "The injectable monoclonal antibody is the first to treat muscle atrophy in patients with SMA, according to the FDA.",
       "source": "Fierce Pharma",
       "url": "https://www.fiercepharma.com/ai-and-machine-learning/scholar-rockscores-long-awaited-fda-approval-first-muscle-loss-sma",
-      "published": "2026-09-17T12:24:37.596329+00:00",
+      "published": "2026-09-17T13:20:54.354097+00:00",
       "age_hours": 0.0,
       "score": 27
     },
@@ -103,8 +123,8 @@
       "description": "As the FDA marches toward the likely first approval of a psychedelic medicine, the agency today convened a hearing seeking public input on how these drugs should be used, monitored and continuously studied in the real world.",
       "source": "Fierce Pharma",
       "url": "https://www.fiercepharma.com/biotech/cultural-weight-psychedelic-approval-looms-fda-hearing-focuses-access-and-safety",
-      "published": "2026-09-17T12:24:37.596285+00:00",
-      "age_hours": 0.0,
+      "published": "2026-09-17T13:20:54.354053+00:00",
+      "age_hours": 0,
       "score": 27
     },
     {
@@ -114,7 +134,7 @@
       "source": "Minnesota Vikings",
       "url": "https://www.vikings.com/news/how-to-watch-listen-stream-bears-2026-week-2",
       "published": "2026-09-16T16:39:43+00:00",
-      "age_hours": 19.7,
+      "age_hours": 20.7,
       "score": 26
     },
     {
@@ -123,7 +143,7 @@
       "description": "New phase 3 data show Vera Therapeutics’ Trutakna successfully stabilizes kidney function in IgA nephropathy patients, mirroring an earlier clinical success from Otsuka’s Voyxact and heating up competition in a rapidly evolving market race.",
       "source": "Fierce Pharma",
       "url": "https://www.fiercepharma.com/pharma/vera-strong-phase-3-igan-data-trutakna-intensify-kidney-disease-rivalry-otsuka",
-      "published": "2026-09-17T12:24:37.595390+00:00",
+      "published": "2026-09-17T13:20:54.353243+00:00",
       "age_hours": 0.0,
       "score": 23
     },
@@ -134,7 +154,7 @@
       "source": "Minnesota Vikings",
       "url": "https://www.vikings.com/news/nfl-power-rankings-week-1-victory-over-packers",
       "published": "2026-09-15T22:47:04+00:00",
-      "age_hours": 37.6,
+      "age_hours": 38.6,
       "score": 23
     },
     {
@@ -144,18 +164,8 @@
       "source": "Minnesota Vikings",
       "url": "https://www.vikings.com/news/2026-community-tuesday-teachers-shopping-all-abilities-clinic",
       "published": "2026-09-15T20:49:42+00:00",
-      "age_hours": 39.6,
+      "age_hours": 40.5,
       "score": 23
-    },
-    {
-      "category": "pharma",
-      "title": "How is API Manufacturing Changing?",
-      "description": "WuXi AppTec’s Ke Chen discusses trends reshaping API manufacturing – while diligence, understanding and controlling the process remains the cornerstone",
-      "source": "Fierce Pharma",
-      "url": "https://www.fiercepharma.com/sponsored/how-api-manufacturing-changing",
-      "published": "2026-09-17T12:24:37.596459+00:00",
-      "age_hours": 0.0,
-      "score": 22
     },
     {
       "category": "pharma",
@@ -163,18 +173,8 @@
       "description": "As Amgen advances its bid to join the first wave of biosimilars to Bristol Myer Squibb and Ono’s oncology mega-blockbuster Opdivo, the originator drug’s partners are not taking the challenge lying down.",
       "source": "Fierce Pharma",
       "url": "https://www.fiercepharma.com/pharma/bms-ono-take-amgen-task-fdas-opdivo-biosimilar-decision-looms",
-      "published": "2026-09-17T12:24:37.595544+00:00",
-      "age_hours": 0.0,
-      "score": 22
-    },
-    {
-      "category": "gaming",
-      "title": "Diablo 4 player discovers secret Diablo 2 easter egg in its new throwback season and now everyone is wondering what else Blizzard hid in there",
-      "description": "It's more than old bosses coming back for the Season of Hell's Legacy.",
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/games/rpg/diablo-4-player-discovers-secret-diablo-2-easter-egg-in-its-new-throwback-season-and-now-everyone-is-wondering-what-else-blizzard-hid-in-there/",
-      "published": "2026-09-15T18:55:37+00:00",
-      "age_hours": 41.5,
+      "published": "2026-09-17T13:20:54.353392+00:00",
+      "age_hours": 0,
       "score": 22
     },
     {
@@ -184,8 +184,8 @@
       "source": "PC Gamer",
       "url": "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-dataminers-have-dug-up-set-bonuses-which-are-interesting-even-on-low-level-gear/",
       "published": "2026-09-17T11:22:34+00:00",
-      "age_hours": 1.0,
-      "score": 21
+      "age_hours": 2.0,
+      "score": 22
     },
     {
       "category": "gaming",
@@ -194,8 +194,8 @@
       "source": "PC Gamer",
       "url": "https://www.pcgamer.com/games/world-of-warcraft/bad-news-for-shaman-tank-hopefuls-world-of-warcraft-forever-wont-have-season-of-discoverys-zany-class-design-just-yet-but-never-say-never-yknow/",
       "published": "2026-09-16T15:01:26+00:00",
-      "age_hours": 21.4,
-      "score": 21
+      "age_hours": 22.3,
+      "score": 22
     },
     {
       "category": "nfl",
@@ -204,7 +204,7 @@
       "source": "Minnesota Vikings",
       "url": "https://www.vikings.com/news/kevin-oconnell-takeaways-from-week-1-win",
       "published": "2026-09-14T22:28:16+00:00",
-      "age_hours": 61.9,
+      "age_hours": 62.9,
       "score": 21
     },
     {
@@ -214,18 +214,8 @@
       "source": "Minnesota Vikings",
       "url": "https://www.vikings.com/news/deeper-dive-hidden-gems-week-1-win-over-packers",
       "published": "2026-09-14T20:34:48+00:00",
-      "age_hours": 63.8,
+      "age_hours": 64.8,
       "score": 21
-    },
-    {
-      "category": "warhammer",
-      "title": "[40k] Competitive Innovations in 11th: We're Gonna Wreck It pt.1",
-      "description": "We've got a huge week of Warhammer and a huge number of spicy new builds as we kick off this week's Competitive Innovations.",
-      "source": "Goonhammer",
-      "url": "https://www.tabletopbattles.com/40k-competitive-innovations-in-11th-were-gonna-wreck-it-pt-1/",
-      "published": "2026-09-16T13:00:05+00:00",
-      "age_hours": 23.4,
-      "score": 20
     },
     {
       "category": "gaming",
@@ -234,8 +224,28 @@
       "source": "PC Gamer",
       "url": "https://www.pcgamer.com/hardware/graphics-cards/the-leakers-disagree-but-we-might-just-get-one-amd-shaped-mid-range-gpu-through-all-of-2027/",
       "published": "2026-09-17T10:41:59+00:00",
-      "age_hours": 1.7,
-      "score": 19
+      "age_hours": 2.6,
+      "score": 20
+    },
+    {
+      "category": "warhammer",
+      "title": "[40k] Competitive Innovations in 11th: We're Gonna Wreck It pt.1",
+      "description": "We've got a huge week of Warhammer and a huge number of spicy new builds as we kick off this week's Competitive Innovations.",
+      "source": "Goonhammer",
+      "url": "https://www.tabletopbattles.com/40k-competitive-innovations-in-11th-were-gonna-wreck-it-pt-1/",
+      "published": "2026-09-16T13:00:05+00:00",
+      "age_hours": 24.3,
+      "score": 18
+    },
+    {
+      "category": "warhammer",
+      "title": "Warhammer 40K: What the Glorious Battles of EPIC Looked Like",
+      "description": "With EPIC’s rapid fire releases, today we take a look back through the TEENSY retro battle scenes from 40K EPIC scale that inspired gamers decades ago. Come and see the biggest battle from the grimdark’s smallest edition. So EPIC, erm… Legion Imperialis is here and growing like a weed. If there is one thing that […] Warhammer 40K: What the Glorious Battles of EPIC Looked Like first appeared on Bell of Lost Souls",
+      "source": "Bell of Lost Souls",
+      "url": "https://www.belloflostsouls.net/2026/09/40k-retro-what-the-glorious-battles-of-epic-looked-like.html",
+      "published": "2026-09-16T02:00:14+00:00",
+      "age_hours": 35.3,
+      "score": 17
     },
     {
       "category": "pharma",
@@ -243,7 +253,17 @@
       "description": "Dr. Rana McKay speaks to the ARANOTE trial of NUBEQA® (darolutamide) and what the data mean for patients, doctors, and care providers.",
       "source": "Fierce Pharma",
       "url": "https://www.fiercepharma.com/sponsored/advancing-mcspc-treatment-closer-look-adt-darolutamide-dr-rana-mckay",
-      "published": "2026-09-17T12:24:37.596592+00:00",
+      "published": "2026-09-17T13:20:54.354267+00:00",
+      "age_hours": 0,
+      "score": 16
+    },
+    {
+      "category": "pharma",
+      "title": "Closing the gap between innovation and impact",
+      "description": "Why aren’t diagnostic-driven therapies reaching enough patients?",
+      "source": "Fierce Pharma",
+      "url": "https://www.fiercepharma.com/sponsored/closing-gap-between-innovation-and-impact",
+      "published": "2026-09-17T13:20:54.354223+00:00",
       "age_hours": 0.0,
       "score": 16
     },
@@ -253,17 +273,7 @@
       "description": "Real-world data has become table stakes. The next challenge is connecting it to genetic insight that can sharpen R&D decisions.",
       "source": "Fierce Pharma",
       "url": "https://www.fiercepharma.com/sponsored/biopharmas-next-data-advantage-may-start-genetics",
-      "published": "2026-09-17T12:24:37.596547+00:00",
-      "age_hours": 0.0,
-      "score": 16
-    },
-    {
-      "category": "pharma",
-      "title": "Closing the gap between innovation and impact",
-      "description": "Why aren’t diagnostic-driven therapies reaching enough patients?",
-      "source": "Fierce Pharma",
-      "url": "https://www.fiercepharma.com/sponsored/closing-gap-between-innovation-and-impact",
-      "published": "2026-09-17T12:24:37.596500+00:00",
+      "published": "2026-09-17T13:20:54.354184+00:00",
       "age_hours": 0.0,
       "score": 16
     },
@@ -273,8 +283,8 @@
       "description": "GSK is consolidating two of its influenza vaccine manufacturing sites into one, leaving hundreds of jobs at risk.",
       "source": "Fierce Pharma",
       "url": "https://www.fiercepharma.com/manufacturing/gsk-makes-difficult-decision-shutter-german-flu-vaccine-manufacturing-site",
-      "published": "2026-09-17T12:24:37.596402+00:00",
-      "age_hours": 0.0,
+      "published": "2026-09-17T13:20:54.354139+00:00",
+      "age_hours": 0,
       "score": 16
     },
     {
@@ -283,7 +293,7 @@
       "description": "Healthcare marketing and comms agency, Deerfield Group, is creating a new model for growth while making a series of appointments and promotions to help bolster its plans.",
       "source": "Fierce Pharma",
       "url": "https://www.fiercepharma.com/marketing/deerfield-goes-major-hiring-and-promotion-spree-built-growth-phase",
-      "published": "2026-09-17T12:24:37.596234+00:00",
+      "published": "2026-09-17T13:20:54.354003+00:00",
       "age_hours": 0.0,
       "score": 16
     },
@@ -293,8 +303,8 @@
       "description": "Lindsey Vonn knows more than most about pain. Spending years training as an elite alpine ski racer puts enough pressure on your body, but Vonn’s injuries and her major crash earlier this year that nearly saw her lose her leg put her at a different level.",
       "source": "Fierce Pharma",
       "url": "https://www.fiercepharma.com/marketing/olympic-skier-lindsey-vonn-joins-vertex-pain-campaign",
-      "published": "2026-09-17T12:24:37.596184+00:00",
-      "age_hours": 0,
+      "published": "2026-09-17T13:20:54.353954+00:00",
+      "age_hours": 0.0,
       "score": 16
     },
     {
@@ -303,7 +313,7 @@
       "description": "Shionogi is stepping up promotion of COVID-19 drug Xocova, working with The Bloc on an omnichannel campaign designed to encourage people to contact their healthcare professional after being exposed to the virus.",
       "source": "Fierce Pharma",
       "url": "https://www.fiercepharma.com/marketing/shionogi-taps-bloc-omnichannel-campaign-backing-covid-19-pill-xocova",
-      "published": "2026-09-17T12:24:37.596080+00:00",
+      "published": "2026-09-17T13:20:54.353855+00:00",
       "age_hours": 0.0,
       "score": 16
     },
@@ -313,7 +323,7 @@
       "description": "AbbVie has partnered with the PGA Tour and the 2026 Presidents Cup, teeing up the “Birdies for Brain Health” initiative to funnel cash to six patient advocacy organizations.",
       "source": "Fierce Pharma",
       "url": "https://www.fiercepharma.com/marketing/abbvie-chips-neurology-advocacy-through-pga-tour-birdie-campaign",
-      "published": "2026-09-17T12:24:37.596019+00:00",
+      "published": "2026-09-17T13:20:54.353808+00:00",
       "age_hours": 0.0,
       "score": 16
     },
@@ -323,7 +333,7 @@
       "description": "In a deal that allows Sanofi to shed assets wrapped up in mature products, German drugmaker Cheplapharm will take over 20 medicines and three manufacturing sites from Sanofi. In exchange, Sanofi is picking up a 26.4% stake in the company.",
       "source": "Fierce Pharma",
       "url": "https://www.fiercepharma.com/pharma/sanofi-strikes-deal-cheplapharm-divest-20-older-medicines-new-ceos-push-innovation",
-      "published": "2026-09-17T12:24:37.595944+00:00",
+      "published": "2026-09-17T13:20:54.353762+00:00",
       "age_hours": 0.0,
       "score": 16
     },
@@ -333,7 +343,7 @@
       "description": "The rare disease biotech announced that it would discontinue efforts to develop Voxzogo for children with Noonan syndrome, a genetic growth disorder that can affect height, facial features and the heart.",
       "source": "Fierce Pharma",
       "url": "https://www.fiercepharma.com/pharma/biomarin-cuts-voxzogo-studies-children-noonan-syndrome-amid-growing-competition",
-      "published": "2026-09-17T12:24:37.595874+00:00",
+      "published": "2026-09-17T13:20:54.353714+00:00",
       "age_hours": 0.0,
       "score": 16
     },
@@ -343,7 +353,7 @@
       "description": "Following a steady stream of acquisitions that culminated in three biotech buyouts earlier this year, Gilead has now reached “critical mass” in its efforts to diversify into oncology and inflammation, CEO Daniel O’Day told Fierce.",
       "source": "Fierce Pharma",
       "url": "https://www.fiercepharma.com/biotech/its-cancer-and-inflammation-expansion-critical-mass-gileads-oday-eyes-companys-next-chapter",
-      "published": "2026-09-17T12:24:37.595823+00:00",
+      "published": "2026-09-17T13:20:54.353664+00:00",
       "age_hours": 0.0,
       "score": 16
     },
@@ -353,7 +363,7 @@
       "description": "The health and hygiene conglomerate, known for brands like Lysol and Mucinex, will spend the funds building out an R&D hub at its new headquarters and finalizing the largest of its seven manufacturing sites by 50%.",
       "source": "Fierce Pharma",
       "url": "https://www.fiercepharma.com/pharma/reckitt-allots-600-million-upgrade-its-us-operations",
-      "published": "2026-09-17T12:24:37.595605+00:00",
+      "published": "2026-09-17T13:20:54.353447+00:00",
       "age_hours": 0.0,
       "score": 16
     },
@@ -363,7 +373,7 @@
       "description": "Trialynx takes home the DPHARM Idol Disrupt award from the 2026 DPHARM conference.",
       "source": "Fierce Pharma",
       "url": "https://www.fiercepharma.com/partner-content/trialynx-wins-dpharm-idol-disrupt-2026",
-      "published": "2026-09-17T12:24:37.595496+00:00",
+      "published": "2026-09-17T13:20:54.353343+00:00",
       "age_hours": 0.0,
       "score": 16
     },
@@ -373,7 +383,7 @@
       "description": "After a 2024 rebuff, AstraZeneca and Daiichi Sankyo’s star antibody drug conjugate Enhertu has been deemed cost effective for NHS use in HER2-low advanced breast cancer by England and Wales' drug value assessor.",
       "source": "Fierce Pharma",
       "url": "https://www.fiercepharma.com/pharma/az-daiichis-enhertu-wins-long-awaited-nice-blessing",
-      "published": "2026-09-17T12:24:37.595321+00:00",
+      "published": "2026-09-17T13:20:54.353186+00:00",
       "age_hours": 0.0,
       "score": 16
     },
@@ -383,7 +393,17 @@
       "description": "Former Publicis Health Media CEO Andrea Palmer has revealed her next post. The executive has taken the CEO position at Assembled Intelligence, the agency that Minds + Assembly launched last year to integrate its flurry of acquisitions.",
       "source": "Fierce Pharma",
       "url": "https://www.fiercepharma.com/marketing/ex-phm-ceo-andrea-palmer-takes-top-job-assembled-intelligence",
-      "published": "2026-09-17T12:24:37.595214+00:00",
+      "published": "2026-09-17T13:20:54.353129+00:00",
+      "age_hours": 0.0,
+      "score": 16
+    },
+    {
+      "category": "pharma",
+      "title": "'Still a bull': Novo's CEO on honoring heritage and planning for the future amid corporate rebrand",
+      "description": "Novo CEO Mike Doustdar—tapped to breathe new life into the Danish drugmaker last year after losing GLP-1 marketing ground to chief rival Eli Lilly—isn’t one to make changes for the sake of change.",
+      "source": "Fierce Pharma",
+      "url": "https://www.fiercepharma.com/pharma/still-bull-novos-ceo-honoring-heritage-and-planning-future-amid-corporate-rebrand",
+      "published": "2026-09-17T13:20:54.353048+00:00",
       "age_hours": 0.0,
       "score": 16
     },
@@ -394,18 +414,8 @@
       "source": "PC Gamer",
       "url": "https://www.pcgamer.com/games/rpg/microsoft-hasnt-marched-fable-to-the-guillotine-because-its-vital-to-the-dna-of-xbox-says-the-games-director/",
       "published": "2026-09-16T15:30:47+00:00",
-      "age_hours": 20.9,
-      "score": 14
-    },
-    {
-      "category": "gaming",
-      "title": "Blizzard is aware Overwatch fans are tired of seeing its fanciest skins go to the same heroes and it's 'the number one' thing it's working to fix next",
-      "description": "Lucio hasn't been forgotten, don't worry.",
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/games/fps/blizzard-is-aware-overwatch-fans-are-tired-of-seeing-its-fanciest-skins-go-to-the-same-heroes-and-its-the-number-one-thing-its-working-to-fix-next/",
-      "published": "2026-09-15T23:19:16+00:00",
-      "age_hours": 37.1,
-      "score": 14
+      "age_hours": 21.8,
+      "score": 15
     },
     {
       "category": "nfl",
@@ -414,7 +424,7 @@
       "source": "Minnesota Vikings",
       "url": "https://www.vikings.com/news/lunchbreak-justin-jefferson-andrew-van-ginkel-week-1-efforts",
       "published": "2026-09-15T17:43:52+00:00",
-      "age_hours": 42.7,
+      "age_hours": 43.6,
       "score": 13
     },
     {
@@ -424,8 +434,8 @@
       "source": "PC Gamer",
       "url": "https://www.pcgamer.com/games/strategy/endless-legend-2-review/",
       "published": "2026-09-16T23:12:07+00:00",
-      "age_hours": 13.2,
-      "score": 11
+      "age_hours": 14.1,
+      "score": 12
     },
     {
       "category": "gaming",
@@ -434,8 +444,8 @@
       "source": "PC Gamer",
       "url": "https://www.pcgamer.com/games/action/get-a-good-look-at-control-resonants-otherworldly-bosses-in-a-pc-gaming-show-exclusive-extended-interview/",
       "published": "2026-09-16T21:44:39+00:00",
-      "age_hours": 14.7,
-      "score": 11
+      "age_hours": 15.6,
+      "score": 12
     },
     {
       "category": "gaming",
@@ -444,8 +454,8 @@
       "source": "PC Gamer",
       "url": "https://www.pcgamer.com/gaming-industry/hyper-light-studio-heart-machine-lays-off-nearly-everyone-after-publisher-deal-for-unannounced-game-falls-through/",
       "published": "2026-09-16T21:01:30+00:00",
-      "age_hours": 15.4,
-      "score": 11
+      "age_hours": 16.3,
+      "score": 12
     },
     {
       "category": "gaming",
@@ -454,8 +464,8 @@
       "source": "PC Gamer",
       "url": "https://www.pcgamer.com/games/fps/marathon-creative-director-shoots-down-rumored-merge-with-destiny-2-please-dont-believe-everything-you-read-online/",
       "published": "2026-09-16T20:20:16+00:00",
-      "age_hours": 16.1,
-      "score": 11
+      "age_hours": 17.0,
+      "score": 12
     },
     {
       "category": "gaming",
@@ -464,8 +474,8 @@
       "source": "PC Gamer",
       "url": "https://www.pcgamer.com/movies-tv/multiple-reviews-call-resident-evil-the-best-videogame-movie-ever/",
       "published": "2026-09-16T19:42:30+00:00",
-      "age_hours": 16.7,
-      "score": 11
+      "age_hours": 17.6,
+      "score": 12
     },
     {
       "category": "gaming",
@@ -474,8 +484,8 @@
       "source": "PC Gamer",
       "url": "https://www.pcgamer.com/gaming-industry/mindseye-developer-build-a-rocket-boy-may-finally-be-closing/",
       "published": "2026-09-16T18:22:31+00:00",
-      "age_hours": 18.0,
-      "score": 11
+      "age_hours": 19.0,
+      "score": 12
     },
     {
       "category": "gaming",
@@ -484,8 +494,8 @@
       "source": "PC Gamer",
       "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-5s-become-a-celebrity-mod-is-almost-weirdly-fully-featured/",
       "published": "2026-09-16T17:00:00+00:00",
-      "age_hours": 19.4,
-      "score": 11
+      "age_hours": 20.3,
+      "score": 12
     },
     {
       "category": "gaming",
@@ -494,8 +504,8 @@
       "source": "PC Gamer",
       "url": "https://www.pcgamer.com/games/card-games/balatro-developer-localthunk-turns-up-on-discord-to-talk-about-the-1-1-update-and-life-after-burnout-i-truly-am-having-the-best-time-making-the-game-now/",
       "published": "2026-09-16T16:01:08+00:00",
-      "age_hours": 20.4,
-      "score": 11
+      "age_hours": 21.3,
+      "score": 12
     },
     {
       "category": "gaming",
@@ -504,8 +514,8 @@
       "source": "PC Gamer",
       "url": "https://www.pcgamer.com/software/windows/ex-ms-engineer-reveals-the-story-behind-the-infamous-fckgw-windows-xp-key-pirates-started-baking-the-key-into-images-or-just-writing-it-on-the-cd-with-a-sharpie/",
       "published": "2026-09-16T15:33:56+00:00",
-      "age_hours": 20.8,
-      "score": 11
+      "age_hours": 21.8,
+      "score": 12
     },
     {
       "category": "gaming",
@@ -514,8 +524,8 @@
       "source": "PC Gamer",
       "url": "https://www.pcgamer.com/gaming-industry/events-conferences/how-to-watch-the-pc-gaming-show-tokyo-direct-2026/",
       "published": "2026-09-16T15:02:23+00:00",
-      "age_hours": 21.4,
-      "score": 11
+      "age_hours": 22.3,
+      "score": 12
     },
     {
       "category": "gaming",
@@ -524,8 +534,8 @@
       "source": "PC Gamer",
       "url": "https://www.pcgamer.com/games/rpg/aniimo-codes/",
       "published": "2026-09-16T14:54:32+00:00",
-      "age_hours": 21.5,
-      "score": 11
+      "age_hours": 22.4,
+      "score": 12
     },
     {
       "category": "gaming",
@@ -534,8 +544,8 @@
       "source": "PC Gamer",
       "url": "https://www.pcgamer.com/games/rpg/aniimo-is-it-gacha-monetization-explained/",
       "published": "2026-09-16T13:45:55+00:00",
-      "age_hours": 22.6,
-      "score": 11
+      "age_hours": 23.6,
+      "score": 12
     },
     {
       "category": "gaming",
@@ -544,8 +554,8 @@
       "source": "PC Gamer",
       "url": "https://www.pcgamer.com/games/the-witcher/the-witcher-3-producer-says-its-scary-to-work-with-another-studio-on-the-games-expansion-i-also-think-twice-about-leaving-my-baby-with-someone/",
       "published": "2026-09-16T13:35:48+00:00",
-      "age_hours": 22.8,
-      "score": 11
+      "age_hours": 23.8,
+      "score": 12
     },
     {
       "category": "gaming",
@@ -554,18 +564,8 @@
       "source": "PC Gamer",
       "url": "https://www.pcgamer.com/hardware/vr-hardware/full-body-tracking-could-come-to-steam-frame-courtesy-of-this-supercharged-base-station-like-device-that-doesnt-require-headset-support/",
       "published": "2026-09-16T11:12:57+00:00",
-      "age_hours": 25.2,
-      "score": 11
-    },
-    {
-      "category": "gaming",
-      "title": "Steam reverses porn game rating it mistakenly gave to an indie vampire RPG, and despite the stress it was a 'net positive' overall as wishlists on Steam 'basically doubled overnight'",
-      "description": "It's a happy ending, but Dave Gilbert of Wadjet Eyes Games says this was absolutely not a guerrilla marketing stunt: \"I’m not that dumb and I'm not that smart!\"",
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/games/rpg/steam-reverses-porn-game-rating-it-mistakenly-gave-to-an-indie-vampire-rpg-and-despite-the-stress-it-was-a-net-positive-overall-as-wishlists-on-steam-basically-doubled-overnight/",
-      "published": "2026-09-15T20:03:51+00:00",
-      "age_hours": 40.3,
-      "score": 11
+      "age_hours": 26.1,
+      "score": 12
     },
     {
       "category": "warhammer",
@@ -574,8 +574,8 @@
       "source": "Goonhammer",
       "url": "https://www.tabletopbattles.com/tabletop-battles-reviews-in-the-land-of-the-sundering-flood/",
       "published": "2026-09-15T17:00:45+00:00",
-      "age_hours": 43.4,
-      "score": 9
+      "age_hours": 44.3,
+      "score": 10
     },
     {
       "category": "gaming",
@@ -584,8 +584,8 @@
       "source": "PC Gamer",
       "url": "https://www.pcgamer.com/software/ai/we-cant-stuff-ai-back-in-a-box-says-former-us-president-barack-obama-confirming-hes-not-a-doomer-while-still-calling-for-more-government-ai-regulation/",
       "published": "2026-09-16T11:34:37+00:00",
-      "age_hours": 24.8,
-      "score": 8
+      "age_hours": 25.8,
+      "score": 9
     },
     {
       "category": "gaming",
@@ -594,8 +594,8 @@
       "source": "PC Gamer",
       "url": "https://www.pcgamer.com/games/strategy/relic-thought-company-of-heroes-3s-ambitious-dynamic-campaign-would-eventually-come-together-but-it-didnt-we-bit-off-more-than-we-could-chew/",
       "published": "2026-09-16T11:29:21+00:00",
-      "age_hours": 24.9,
-      "score": 8
+      "age_hours": 25.9,
+      "score": 9
     },
     {
       "category": "gaming",
@@ -604,8 +604,8 @@
       "source": "PC Gamer",
       "url": "https://www.pcgamer.com/hardware/looks-like-sk-hynix-wants-to-make-memory-chips-on-us-soil-and-it-could-work-with-intel-to-do-it/",
       "published": "2026-09-16T11:14:14+00:00",
-      "age_hours": 25.2,
-      "score": 8
+      "age_hours": 26.1,
+      "score": 9
     },
     {
       "category": "gaming",
@@ -614,8 +614,8 @@
       "source": "PC Gamer",
       "url": "https://www.pcgamer.com/games/action/warlock-dungeons-and-dragons-wont-have-waypoints-so-that-players-can-figure-things-out-without-blindly-trusting-a-ui/",
       "published": "2026-09-16T10:42:58+00:00",
-      "age_hours": 25.7,
-      "score": 8
+      "age_hours": 26.6,
+      "score": 9
     },
     {
       "category": "gaming",
@@ -624,18 +624,8 @@
       "source": "PC Gamer",
       "url": "https://www.pcgamer.com/hardware/graphics-cards/where-have-all-the-rtx-5090s-gone-stock-of-the-high-end-gpu-is-disappearing-from-us-online-retailers/",
       "published": "2026-09-16T09:48:50+00:00",
-      "age_hours": 26.6,
-      "score": 8
-    },
-    {
-      "category": "gaming",
-      "title": "I've been waiting all year for the 2nd Chapter to last year's best JRPG remake—it did not disappoint",
-      "description": "Enjoy some JRPG comfort food with Trails in the Sky 2nd Chapter.",
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/games/rpg/ive-been-waiting-all-year-for-the-2nd-chapter-to-last-years-best-jrpg-remake-it-did-not-disappoint/",
-      "published": "2026-09-16T07:00:00+00:00",
-      "age_hours": 29.4,
-      "score": 8
+      "age_hours": 27.5,
+      "score": 9
     },
     {
       "category": "gaming",
@@ -644,118 +634,28 @@
       "source": "PC Gamer",
       "url": "https://www.pcgamer.com/games/rpg/trails-in-the-sky-2nd-chapter-remake-has-one-of-the-creepiest-jrpg-monsters-ive-encountered/",
       "published": "2026-09-16T07:00:00+00:00",
-      "age_hours": 29.4,
+      "age_hours": 30.3,
+      "score": 9
+    },
+    {
+      "category": "nfl",
+      "title": "NFL Week 2: Diese Spiele zeigen RTL und Sky live",
+      "description": "",
+      "source": "RTL NFL",
+      "url": "https://www.rtl.de/sport/nfl/nfl-week-2-diese-spiele-zeigen-rtl-und-sky-live-id31310844.html",
+      "published": "2026-09-16T09:03:34+00:00",
+      "age_hours": 28.3,
       "score": 8
     },
     {
-      "category": "gaming",
-      "title": "How to fish in Valheim",
-      "description": "Where to find a fishing rod and how to catch fish in the Viking survival game.",
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/games/survival-crafting/valheim-how-to-fish/",
-      "published": "2026-09-15T23:28:48+00:00",
-      "age_hours": 36.9,
-      "score": 8
-    },
-    {
-      "category": "gaming",
-      "title": "As Skyblivion's launch approaches, the team is looking for help to get the word out",
-      "description": "But will the long-awaited mega-mod make its 2026 release target?",
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/games/the-elder-scrolls/as-skyblivions-launch-approaches-the-team-is-looking-for-help-to-get-the-word-out/",
-      "published": "2026-09-15T21:47:31+00:00",
-      "age_hours": 38.6,
-      "score": 8
-    },
-    {
-      "category": "gaming",
-      "title": "Wardogs CEO says he won't hire devs who aren't down with crunch: 'If you care about what you're making, this is the place to work' (Updated)",
-      "description": "A controversial stance, to say the least.",
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/games/fps/wardogs-ceo-says-he-wont-hire-devs-who-arent-down-with-mandatory-crunch-if-you-care-about-what-youre-making-this-is-the-place-to-work/",
-      "published": "2026-09-15T21:14:53+00:00",
-      "age_hours": 39.2,
-      "score": 8
-    },
-    {
-      "category": "gaming",
-      "title": "Wardogs delivers what Battlefield 6 was too console-brained to pull off: A real server browser",
-      "description": "Millions of players, yet zero matchmaking.",
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/games/fps/wardogs-delivers-what-battlefield-6-was-too-console-brained-to-pull-off-a-real-server-browser/",
-      "published": "2026-09-15T19:49:32+00:00",
-      "age_hours": 40.6,
-      "score": 8
-    },
-    {
-      "category": "gaming",
-      "title": "I am Mark Zuckerberg",
-      "description": "What more do I have to say?",
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/games/grand-theft-auto/i-am-mark-zuckerberg/",
-      "published": "2026-09-15T17:00:00+00:00",
-      "age_hours": 43.4,
-      "score": 8
-    },
-    {
-      "category": "gaming",
-      "title": "The Witcher 3 'is not untouchable,' story director says of the upcoming expansion and remaster: 'I still find some places that I think maybe nowadays, I would do it differently'",
-      "description": "CD Projekt is remastering its RPG masterpiece and rolling out a new expansion in 2027, and that means changes are coming.",
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/games/the-witcher/the-witcher-3-is-not-untouchable-story-director-says-of-changes-in-the-upcoming-remaster-i-still-find-some-places-that-i-think-maybe-nowadays-i-would-do-it-differently/",
-      "published": "2026-09-15T16:44:17+00:00",
-      "age_hours": 43.7,
-      "score": 8
-    },
-    {
-      "category": "gaming",
-      "title": "If you need proof The Witcher 3's new expansion is in safe hands, its lead writer literally wrote her thesis on Hearts of Stone: 'To probably prove to some of my professors that games are worthy'",
-      "description": "Mission accomplished.",
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/games/the-witcher/if-you-need-proof-the-witcher-3s-new-expansion-is-in-safe-hands-its-lead-writer-literally-wrote-her-thesis-on-hearts-of-stone-to-probably-prove-to-some-of-my-professors-that-games-are-worthy/",
-      "published": "2026-09-15T16:30:00+00:00",
-      "age_hours": 43.9,
-      "score": 8
-    },
-    {
-      "category": "gaming",
-      "title": "No, AI, you are not human: Microsoft's code of practice for artificial intelligence actually gives me some hope for the industry",
-      "description": "A fool's hope, perhaps.",
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/software/ai/no-ai-you-are-not-human-microsofts-code-of-practice-for-artificial-intelligence-actually-gives-me-some-hope-for-the-industry/",
-      "published": "2026-09-15T16:21:40+00:00",
-      "age_hours": 44.0,
-      "score": 8
-    },
-    {
-      "category": "gaming",
-      "title": "Sega's ongoing effort to revive Crazy Taxi now appears to be taking the form of… a movie?",
-      "description": "Yeah, I dunno either.",
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/movies-tv/segas-ongoing-effort-to-revive-crazy-taxi-now-appears-to-be-taking-the-form-of-a-movie/",
-      "published": "2026-09-15T16:02:26+00:00",
-      "age_hours": 44.4,
-      "score": 8
-    },
-    {
-      "category": "gaming",
-      "title": "The Witcher 3's story director says an ideal quest is 'constructed in such a way that the player puts the controller away, stands up, and starts walking'",
-      "description": "\"Then [the player] goes back, and then the player picks one of the choices.\"",
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/games/the-witcher/the-witcher-3s-story-director-says-an-ideal-quest-is-constructed-in-such-a-way-that-the-player-puts-the-controller-away-stands-up-and-starts-walking/",
-      "published": "2026-09-15T15:23:12+00:00",
-      "age_hours": 45.0,
-      "score": 8
-    },
-    {
-      "category": "gaming",
-      "title": "Serial numbers on RTX Founders Edition graphics cards, including PC Gamer's very own, are fading and apparently it's causing a problem with RMA requests",
-      "description": "If true, that could make for some expensive paperweights.",
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/hardware/graphics-cards/serial-numbers-on-rtx-founders-edition-graphics-cards-including-pc-gamers-very-own-are-fading-and-apparently-its-causing-a-problem-with-rma-requests/",
-      "published": "2026-09-15T15:18:14+00:00",
-      "age_hours": 45.1,
-      "score": 8
+      "category": "nfl",
+      "title": "NFL: Taylor Swift und Tom Cruise bejubeln Mahomes-Comeback bei Chiefs-Sieg",
+      "description": "",
+      "source": "RTL NFL",
+      "url": "https://www.rtl.de/sport/nfl/nfl-taylor-swift-und-tom-cruise-bejubeln-mahomes-comeback-bei-chiefs-sieg-id31306563.html",
+      "published": "2026-09-15T07:01:44+00:00",
+      "age_hours": 54.3,
+      "score": 6
     }
   ]
 }
