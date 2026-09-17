@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My News</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0d1117;
+            color: #e6edf3;
+        }
+
+        header {
+            padding: 35px 20px;
+            text-align: center;
+            background: #161b22;
+            border-bottom: 1px solid #30363d;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header p {
+            color: #8b949e;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 25px;
+        }
+
+        .categories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            margin-bottom: 35px;
+        }
+
+        .category {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 20px;
+            font-size: 18px;
+        }
+
+        .news-section {
+            margin-bottom: 40px;
+        }
+
+        .news-card {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 12px 0;
+        }
+
+        .news-card h3 {
+            margin-top: 0;
+        }
+
+        .source {
+            color: #8b949e;
+            font-size: 14px;
+        }
+
+        a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            color: #8b949e;
+            padding: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>📰 MY NEWS</h1>
+    <p>Dein persönliches Daily Briefing</p>
+</header>
+
+<div class="container">
+
+    <div class="categories">
+
+        <div class="category">
+            ⚔️ <strong>Warhammer 40K</strong>
+            <p>News, Regeln & Releases</p>
+        </div>
+
+        <div class="category">
+            🎮 <strong>Gaming</strong>
+            <p>Games, Releases & Hardware</p>
+        </div>
+
+        <div class="category">
+            🏈 <strong>NFL / Vikings</strong>
+            <p>Vikings & NFL News</p>
+        </div>
+
+        <div class="category">
+            🧬 <strong>Novartis / Pharma</strong>
+            <p>Pharma, Forschung & CAR-T</p>
+        </div>
+
+    </div>
+
+
+    <section class="news-section">
+
+        <h2>🔥 Top News</h2>
+
+        <div class="news-card">
+            <h3>Deine wichtigsten News erscheinen hier.</h3>
+
+            <p>
+                Sobald unser automatischer News-Abruf läuft,
+                werden hier die relevantesten Meldungen angezeigt.
+            </p>
+
+            <span class="source">
+                My News Dashboard
+            </span>
+        </div>
+
+    </section>
+
+
+    <section class="news-section">
+
+        <h2>⚔️ Warhammer 40K</h2>
+
+        <div class="news-card">
+            <h3>Warhammer-News werden geladen...</h3>
+
+            <p>
+                Hier erscheinen später aktuelle Meldungen zu
+                Warhammer 40.000.
+            </p>
+        </div>
+
+    </section>
+
+
+    <section class="news-section">
+
+        <h2>🎮 Gaming</h2>
+
+        <div class="news-card">
+            <h3>Gaming-News werden geladen...</h3>
+
+            <p>
+                Aktuelle Gaming-News, Releases und Hardware.
+            </p>
+        </div>
+
+    </section>
+
+
+    <section class="news-section">
+
+        <h2>🏈 NFL / Minnesota Vikings</h2>
+
+        <div class="news-card">
+            <h3>NFL-News werden geladen...</h3>
+
+            <p>
+                Vikings, Trades, Verletzungen, Spiele und NFL-News.
+            </p>
+        </div>
+
+    </section>
+
+
+    <section class="news-section">
+
+        <h2>🧬 Novartis / Pharma</h2>
+
+        <div class="news-card">
+            <h3>Pharma-News werden geladen...</h3>
+
+            <p>
+                Novartis, Kymriah, CAR-T, FDA, EMA und
+                wichtige Pharma-News.
+            </p>
+        </div>
+
+    </section>
+
+</div>
+
+
+<footer>
+    MY NEWS • Persönliches Daily Briefing
+</footer>
+
+</body>
+</html>
