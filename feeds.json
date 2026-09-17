@@ -1,0 +1,65 @@
+{
+  "warhammer": {
+    "name": "Warhammer 40K",
+    "icon": "⚔️",
+    "keywords": [
+      "Warhammer 40000",
+      "Warhammer 40,000",
+      "Warhammer 40K",
+      "40K",
+      "Space Marines",
+      "Chaos Space Marines",
+      "World Eaters",
+      "Codex",
+      "Munitorum Field Manual",
+      "Balance Dataslate"
+    ]
+  },
+
+  "gaming": {
+    "name": "Gaming",
+    "icon": "🎮",
+    "keywords": [
+      "Gaming",
+      "PC Gaming",
+      "World of Warcraft",
+      "WoW",
+      "Diablo",
+      "Blizzard",
+      "Steam",
+      "PlayStation",
+      "Xbox",
+      "Nintendo",
+      "Nvidia",
+      "AMD"
+    ]
+  },
+
+  "nfl": {
+    "name": "NFL / Vikings",
+    "icon": "🏈",
+    "keywords": [
+      "Minnesota Vikings",
+      "Vikings",
+      "NFL",
+      "NFL Draft",
+      "NFL Playoffs",
+      "Super Bowl"
+    ]
+  },
+
+  "pharma": {
+    "name": "Novartis / Pharma",
+    "icon": "🧬",
+    "keywords": [
+      "Novartis",
+      "Kymriah",
+      "CAR-T",
+      "Cell Therapy",
+      "FDA",
+      "EMA",
+      "Phase III",
+      "clinical trial"
+    ]
+  }
+}
