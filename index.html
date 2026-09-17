@@ -588,19 +588,12 @@ fetch("./news.json?time=" + Date.now())
            TOP NEWS
         ------------------------- */
 
-        const topNews =
-            [...articles]
-
-                .sort(
-                    (a, b) =>
-                        (b.score || 0) -
-                        (a.score || 0)
-                )
-
-                .slice(
-                    0,
-                    6
-                );
+const topNews =
+    createBalancedTopNews(
+        articles,
+        8,
+        2
+    );
 
 
         showArticles(
@@ -1137,6 +1130,67 @@ function showUpdateTime(
 
 }
 
+    /* ==================================================
+   AUSGEWOGENE TOP NEWS
+================================================== */
+
+function createBalancedTopNews(
+    articles,
+    maxArticles = 8,
+    maxPerCategory = 2
+) {
+
+    const sorted =
+        [...articles].sort(
+            (a, b) =>
+                (b.score || 0) -
+                (a.score || 0)
+        );
+
+
+    const selected = [];
+
+    const categoryCount = {};
+
+
+    for (const article of sorted) {
+
+        const category =
+            article.category || "other";
+
+
+        if (
+            (categoryCount[category] || 0)
+            >= maxPerCategory
+        ) {
+
+            continue;
+
+        }
+
+
+        selected.push(article);
+
+
+        categoryCount[category] =
+            (categoryCount[category] || 0) + 1;
+
+
+        if (
+            selected.length >= maxArticles
+        ) {
+
+            break;
+
+        }
+
+    }
+
+
+    return selected;
+
+}
+    
 </script>
 
 
