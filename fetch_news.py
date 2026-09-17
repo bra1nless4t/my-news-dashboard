@@ -40,14 +40,6 @@ FEEDS = [
         "base_score": 4
     },
 
-    {
-        "category": "gaming",
-        "name": "GameStar",
-        "url": "https://www.gamestar.de/rss/gaming.rss",
-        "base_score": 4
-    },
-
-
     # ==========================================
     # NFL
     # ==========================================
@@ -76,6 +68,7 @@ FEEDS = [
         "name": "Fierce Pharma",
         "url": "https://www.fiercepharma.com/rss/xml",
         "base_score": 4
+        "filter_pharma": True
     }
 
 ]
@@ -233,6 +226,22 @@ WARHAMMER_40K_TERMS = [
     "munitorum"
 ]
 
+PHARMA_TERMS = [
+    
+    "novartis",
+    "kymriah",
+    "car-t",
+    "car t",
+    "cell therapy",
+    "gene therapy",
+    "fda approval",
+    "fda approves",
+    "ema",
+    "european commission approval",
+    "phase iii",
+    "phase 3",
+    "clinical trial"
+]
 
 # ==================================================
 # HTML BEREINIGEN
@@ -403,7 +412,16 @@ def is_40k(title, description):
         term in text
         for term in WARHAMMER_40K_TERMS
     )
+def is_relevant_pharma(title, description):
 
+    text = (
+        title + " " + description
+    ).lower()
+
+    return any(
+        term in text
+        for term in PHARMA_TERMS
+    )
 
 # ==================================================
 # NEWS ABRUFEN
@@ -464,7 +482,7 @@ for feed_info in FEEDS:
         # Warhammer 40K Filter
         # --------------------------
 
-        if feed_info.get(
+     if feed_info.get(
             "filter_40k",
             False
         ):
@@ -477,11 +495,23 @@ for feed_info in FEEDS:
                 continue
 
 
+    if feed_info.get(
+            "filter_pharma",
+            False
+        ):
+
+            if not is_relevant_pharma(
+                title,
+                description
+            ):
+
+                continue
+
+
         url = entry.get(
             "link",
             "#"
         )
-
 
         publish_date = get_date(
             entry
