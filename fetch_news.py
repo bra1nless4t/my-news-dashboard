@@ -6,34 +6,51 @@ from html import unescape
 from email.utils import parsedate_to_datetime
 
 
-# ==================================================
-# NEWS-QUELLEN
-# ==================================================
-
 FEEDS = [
 
-    # ---------- WARHAMMER ----------
+    # ==========================================
+    # WARHAMMER 40K
+    # ==========================================
 
     {
         "category": "warhammer",
         "name": "Goonhammer",
         "url": "https://www.goonhammer.com/feed/",
+        "base_score": 5,
+        "filter_40k": True
+    },
+
+    {
+        "category": "warhammer",
+        "name": "Bell of Lost Souls",
+        "url": "https://feeds2.feedburner.com/BellOfLostSouls",
         "base_score": 4,
         "filter_40k": True
     },
 
 
-    # ---------- GAMING ----------
+    # ==========================================
+    # GAMING
+    # ==========================================
 
     {
         "category": "gaming",
         "name": "PC Gamer",
         "url": "https://www.pcgamer.com/rss/",
-        "base_score": 3
+        "base_score": 4
+    },
+
+    {
+        "category": "gaming",
+        "name": "GameStar",
+        "url": "https://www.gamestar.de/rss/gaming.rss",
+        "base_score": 4
     },
 
 
-    # ---------- NFL ----------
+    # ==========================================
+    # NFL
+    # ==========================================
 
     {
         "category": "nfl",
@@ -42,8 +59,17 @@ FEEDS = [
         "base_score": 8
     },
 
+    {
+        "category": "nfl",
+        "name": "RTL NFL",
+        "url": "https://www.rtl.de/rss/feed/sport/nfl/",
+        "base_score": 3
+    },
 
-    # ---------- PHARMA ----------
+
+    # ==========================================
+    # PHARMA
+    # ==========================================
 
     {
         "category": "pharma",
@@ -51,6 +77,7 @@ FEEDS = [
         "url": "https://www.fiercepharma.com/rss/xml",
         "base_score": 4
     }
+
 ]
 
 
