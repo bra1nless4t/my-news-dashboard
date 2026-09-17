@@ -1,37 +1,125 @@
 {
-  "updated": "2026-09-17T11:51:51.464540+00:00",
+  "updated": "2026-09-17T11:54:56.361713+00:00",
   "articles": [
     {
-      "category": "warhammer",
-      "title": "Warhammer 40K Testmeldung",
-      "description": "Der automatische News-Abruf funktioniert.",
-      "source": "MY NEWS",
-      "url": "#",
-      "score": 10
+      "category": "gaming",
+      "title": "WoW Forever dataminers have dug up set bonuses, which are interesting even on low-level gear",
+      "description": "Armor up!",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-dataminers-have-dug-up-set-bonuses-which-are-interesting-even-on-low-level-gear/",
+      "score": 5
     },
     {
       "category": "gaming",
-      "title": "Gaming Testmeldung",
-      "description": "Hier erscheinen später aktuelle Gaming-News.",
-      "source": "MY NEWS",
-      "url": "#",
-      "score": 8
+      "title": "The leakers disagree, but we might just get one AMD-shaped mid-range GPU through all of 2027",
+      "description": "2027 could look sparse for GPUs.",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/hardware/graphics-cards/the-leakers-disagree-but-we-might-just-get-one-amd-shaped-mid-range-gpu-through-all-of-2027/",
+      "score": 5
     },
     {
-      "category": "nfl",
-      "title": "Minnesota Vikings Testmeldung",
-      "description": "Hier erscheinen später aktuelle Vikings- und NFL-News.",
-      "source": "MY NEWS",
-      "url": "#",
-      "score": 10
+      "category": "gaming",
+      "title": "Endless Legend 2 review",
+      "description": "Coral robots fighting nano-vampires—that's Endless Legend 2, y'all.",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/games/strategy/endless-legend-2-review/",
+      "score": 5
     },
     {
-      "category": "pharma",
-      "title": "Novartis / Pharma Testmeldung",
-      "description": "Hier erscheinen später aktuelle Pharma-News.",
-      "source": "MY NEWS",
-      "url": "#",
-      "score": 10
+      "category": "gaming",
+      "title": "Get a good look at Control Resonant's otherworldly bosses in a PC Gaming Show exclusive extended interview",
+      "description": "One fight theme uses Fibonacci numbers.",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/games/action/get-a-good-look-at-control-resonants-otherworldly-bosses-in-a-pc-gaming-show-exclusive-extended-interview/",
+      "score": 5
+    },
+    {
+      "category": "gaming",
+      "title": "Hyper Light studio Heart Machine lays off 'nearly everyone' after publishing deal for unannounced game falls through",
+      "description": "Studio founder Alx Preston said he's \"not sure yet what's next for Heart Machine to survive.\"",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/gaming-industry/hyper-light-studio-heart-machine-lays-off-nearly-everyone-after-publisher-deal-for-unannounced-game-falls-through/",
+      "score": 5
+    },
+    {
+      "category": "gaming",
+      "title": "Marathon creative director shoots down rumored merge with Destiny 2: 'Please don't believe everything you read online'",
+      "description": "A \"leak\" claimed that Bungie is looking into combining the two games into one single, big property.",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/games/fps/marathon-creative-director-shoots-down-rumored-merge-with-destiny-2-please-dont-believe-everything-you-read-online/",
+      "score": 5
+    },
+    {
+      "category": "gaming",
+      "title": "'The best videogame movie' ever? The first reviews of Zach Cregger's Resident Evil adaptation are absolutely glowing",
+      "description": "Low bar to clear, but still.",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/movies-tv/multiple-reviews-call-resident-evil-the-best-videogame-movie-ever/",
+      "score": 5
+    },
+    {
+      "category": "gaming",
+      "title": "MindsEye developer Build a Rocket Boy may finally be closing",
+      "description": "Multiple employees have said on LinkedIn that everyone left is being let go.",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/gaming-industry/mindseye-developer-build-a-rocket-boy-may-finally-be-closing/",
+      "score": 5
+    },
+    {
+      "category": "gaming",
+      "title": "World of Warcraft: Forever beta launch times: How to sign up and play Blizzard's twist on WoW Classic",
+      "description": "Here's how to get an early taste at the classic-ish MMO.",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-beta-launch-times-how-to-sign-up-and-play-blizzards-twist-on-wow-classic/",
+      "score": 5
+    },
+    {
+      "category": "gaming",
+      "title": "GTA 5's 'Become a celebrity' mod is almost weirdly fully featured",
+      "description": "I wanna be a star.",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-5s-become-a-celebrity-mod-is-almost-weirdly-fully-featured/",
+      "score": 5
+    },
+    {
+      "category": "gaming",
+      "title": "Balatro developer LocalThunk turns up on Discord to talk about the 1.1 update and life after burnout: 'I truly am having the best time making the game now'",
+      "description": "It's been a year since the Balatro 1.1 update was delayed into 2026.",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/games/card-games/balatro-developer-localthunk-turns-up-on-discord-to-talk-about-the-1-1-update-and-life-after-burnout-i-truly-am-having-the-best-time-making-the-game-now/",
+      "score": 5
+    },
+    {
+      "category": "gaming",
+      "title": "Ex-MS engineer reveals the story behind the infamous 'FCKGW' Windows XP key: 'Pirates started baking the key into images or just writing it on the CD with a Sharpie'",
+      "description": "'The most plausible source is an OEM or hardware partner that received final media early so they could ship PCs on launch day.'",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/software/windows/ex-ms-engineer-reveals-the-story-behind-the-infamous-fckgw-windows-xp-key-pirates-started-baking-the-key-into-images-or-just-writing-it-on-the-cd-with-a-sharpie/",
+      "score": 5
+    },
+    {
+      "category": "gaming",
+      "title": "Microsoft hasn't marched Fable to the guillotine because it's 'vital to the DNA' of Xbox, says the game's director",
+      "description": "Hurting Fable would be like hurting the Xbox brand itself, to hear Ralph Fulton tell it.",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/games/rpg/microsoft-hasnt-marched-fable-to-the-guillotine-because-its-vital-to-the-dna-of-xbox-says-the-games-director/",
+      "score": 5
+    },
+    {
+      "category": "gaming",
+      "title": "How to watch the PC Gaming Show Tokyo Direct 2026",
+      "description": "Come back to the Tokyo Game Show and see all the news we've got for you.",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/gaming-industry/events-conferences/how-to-watch-the-pc-gaming-show-tokyo-direct-2026/",
+      "score": 5
+    },
+    {
+      "category": "gaming",
+      "title": "Bad news for shaman tank hopefuls—World of Warcraft: Forever won't have Season of Discovery's zany class design just yet: 'But never say never, y'know'",
+      "description": "Forever, not never.",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/games/world-of-warcraft/bad-news-for-shaman-tank-hopefuls-world-of-warcraft-forever-wont-have-season-of-discoverys-zany-class-design-just-yet-but-never-say-never-yknow/",
+      "score": 5
     }
   ]
 }
