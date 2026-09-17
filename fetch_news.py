@@ -16,14 +16,6 @@ FEEDS = [
 
     {
         "category": "warhammer",
-        "name": "Warhammer Community",
-        "url": "https://warcomfeed.link/feed",
-        "base_score": 6,
-        "filter_40k": True
-    },
-
-    {
-        "category": "warhammer",
         "name": "Goonhammer",
         "url": "https://www.goonhammer.com/feed/",
         "base_score": 4,
