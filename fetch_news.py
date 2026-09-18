@@ -67,8 +67,8 @@ FEEDS = [
         "category": "pharma",
         "name": "Fierce Pharma",
         "url": "https://www.fiercepharma.com/rss/xml",
-        "base_score": 4
-        "filter_pharma": True
+        "base_score": 4,
+        "filter_pharma": True,
     }
 
 ]
